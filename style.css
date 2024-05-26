@@ -1,0 +1,72 @@
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+:root{
+    --primary-color: hsl(14, 45%, 36%);
+    --secondary-color: hsl(332, 51%, 32%);
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400, 600, 700;
+    line-height: 28px;
+    color: hsl(30, 10%, 34%);
+}
+
+body p {
+    font-size: 16px;
+}
+
+main {
+    width: 60%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 32px;
+}
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+h2{
+    font-family: "Outfit", sans-serif;
+}
+.image {
+    width: 100%;
+}
+
+
+.image img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.omelette {
+    color: hsl(24, 5%, 18%);
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+}
+
+.prep-time h3, h2, .tbl, ul li::marker, ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-family: serif;
+    font-weight: 700;
+}
+
+span {
+    font-weight: bold;
+    color: hsl(30, 10%, 34%);
+}
+
+
+li {
+    padding-left: 20px;
+}
