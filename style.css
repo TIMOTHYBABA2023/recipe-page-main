@@ -25,7 +25,7 @@ body p {
 main {
     width: 60%;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 24px;
     padding: 32px;
 }
 h1 {
@@ -61,7 +61,7 @@ h2{
     font-weight: 700;
 }
 
-span {
+.span {
     font-weight: bold;
     color: hsl(30, 10%, 34%);
 }
@@ -69,4 +69,29 @@ span {
 
 li {
     padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    font-weight: 400;
+} 
+
+
+td {
+    border-bottom: 1px solid rgb(159, 161, 161);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-self: center;
+}
+td {
+    padding: 20px 0px 20px 30px; 
+}
+
+td span {
+    width: 50%;   
+}
+
+#last-row {
+    border-bottom: none;
 }
